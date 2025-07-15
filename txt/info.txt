@@ -1,1 +1,56 @@
 
+CW MODELY - A Morsecode Program
+Written in NASM Assembly
+By Tommy Clemmensen - OZ1THC - 2025
+
+---------------------------------------
+LETTERS  (You need 4 out of 5 correct)
+---------------------------------------
+
+Level  1: kmure
+Level  2: snapt
+Level  3: kmuresnapt
+Level  4: lowij
+Level  5: kmuresnaptlowij
+Level  6: hxdbc
+Level  7: kmuresnaptlowijhxdbc
+Level  8: ygzqf
+Level  9: kmuresnaptlowijhxdbcygzqf
+Level 10: v5432
+Level 11: kmuresnaptlowijhxdbcygzqfv5432
+Level 12: 16789
+Level 13: kmuresnaptlowijhxdbcygzqfv543216789
+Level 14: 0 ? / = .
+Level 15: kmuresnaptlowijhxdbcygzqfv5432167890?/=.
+
+---------------------------------------
+WORDS   (You need 6 out of 10 correct)
+---------------------------------------
+
+  - 3 letters
+  - 3-4 letters
+  - 3-5 letters
+  - 4 letters
+  - 4-5 letters
+  - 5 letters
+  - 4-6 letters
+  - 5-6 letters
+  - 6 letters
+  - Top 100
+  - Top 200
+  - Top 500
+
+---------------------------------------
+SENTENCES (You need 6 out of 10 correct)
+---------------------------------------
+
+  - 2 words
+  - 3 words
+  - 4 words
+  - 5 words
+  - 6 words
+  - 7 words
+  - 8 words
+  - Top 100 words
+  - Top 200 words
+  - Top 600 words
