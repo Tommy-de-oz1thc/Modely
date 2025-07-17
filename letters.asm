@@ -2,12 +2,13 @@ global Letters
 
 extern _system, _printf, _getch
 extern main, Let_1, Let_2, Let_3, Let_4, Let_5, Let_6, Let_7, Let_8, Let_9, Let_10, Let_11, Let_12, Let_13, Let_14, Let_15
-
+extern Show_Statistic_Letters
 section .data
 	cls_cmd db "cls", 0       ; define the clear screan
     sentences_info db "Welcome to Letters", 10, 10, 0
     say_letters db "Say\\say_text.exe Welcome to Letters. Choose a file to practice with. Or press Escape to go back", 0
     Sentences_display db "(Esc) Go back", 10
+	                 
                       db "(a) kmure", 10
 					  db "(b) snapt", 10
 				      db "(c) kmuresnapt", 10 
@@ -63,6 +64,8 @@ Letters:
     cmp eax, 27         ; ESC
     je main
 
+   
+		
     cmp eax, 'a'
     je Let_1
     cmp eax, 'b'

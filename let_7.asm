@@ -198,9 +198,10 @@ ask_loop:
 
     lea eax, [user_input]
     push eax
-    push input_format
-    call _scanf
-    add esp, 8
+	
+    call _getch
+	mov [user_input], al       ; gem tegnet
+    mov byte [user_input+1], 0 ; null-terminér
 
     mov eax, [selected_ptrs + edi*4]
     push eax
