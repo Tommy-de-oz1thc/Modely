@@ -14,9 +14,9 @@ section .data
 	intro_line1 db "+------------------------------------------+", 10, 0
 	intro_line2 db "|  WELCOME TO CW Modely morsecode program  |", 10, 0
 	intro_line3 db "|  Made by Tommy Clemmensen *OZ1THC* 2025  |", 10, 0
-	intro_line4 db "|  coded in NASM Assembly - Version 2.0    |", 10, 0
+	intro_line4 db "|  coded in NASM Assembly - Version 2.1    |", 10, 0
 	intro_line5 db "+------------------------------------------+", 10, 0
-	press_key_txt db "Exit (Esc), Letters(l), Words(w), Sentences(s), Radio(r), Info(i), Toggle Show Text((t)", 0
+	press_key_txt db "Exit (Esc), Letters(l), Words(w), Sentences(s), Radio(r), Info(i), Toggle Show Text(t)", 0
 	
 	say_cmd db "Say\\say_text.exe Welcome to CW Modely. Press w for words or s for sentences to start.", 0
 	say_exit db "Say\\say_text.exe You have exit the program.", 0
